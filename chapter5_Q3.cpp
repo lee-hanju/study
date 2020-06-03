@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void combine(string t1,string t2,string t3) {
+void combine(string t1,string t2,string &t3) {
 	t3 = t1 + " " + t2;
 }
 
